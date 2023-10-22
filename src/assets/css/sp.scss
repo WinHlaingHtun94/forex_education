@@ -1,0 +1,370 @@
+@media (max-width: 768px) {
+	/*-------------------------------------
+	Common
+	---------------------------------------*/
+	.pcOnly {
+		display: none !important;
+	}
+
+	.spOnly {
+		display: block !important;
+	}
+
+	.col {
+		flex-flow: wrap;
+	}
+
+	.leadTitle {
+		font-size: 30px;
+	}
+
+	.humberger {
+		width: 50px;
+		cursor: pointer;
+		box-sizing: border-box;
+		padding: 5px;
+	
+		span,
+		&::before,
+		&::after {
+			display: block;
+			content: '';
+			height: 2px;
+			background: #F50E0E;
+			width: 100%;
+			transition: all .5s;
+		}
+	
+		span {
+			margin: 10px 0;
+		}
+
+		&.active {
+			span {
+				// width: 0;
+				opacity: 0;
+			}
+			
+			&::before {
+				transform: rotate(45deg) translate(12px,6px);
+			}
+
+			&::after {
+				transform: rotate(-45deg) translate(11px,-5px);
+			}
+		}
+	}
+
+	.contactForm {
+		padding: 20px;
+	
+		input,
+		textarea {
+			padding: 5px 10px;
+		}
+	
+		textarea {
+			min-height: 150px;
+		}
+	
+		.submit {
+			width: 100%;
+			font-size: 17px;
+		}
+	
+		dl {
+			flex-flow: wrap;
+			margin-bottom: 10px;
+			font-size: 17px;
+	
+			dt {
+				width: 100%;
+			}
+	
+			dd {
+				width: 100%;
+				padding-left: 0;
+			}
+		}
+	}
+
+	.tradingview-widget-container {
+		max-width: calc(100% - 40px);
+		height: 100vh!important;
+	}
+
+	/* --------------------------------------------------------------------------------------
+	Header
+	--------------------------------------------------------------------------------------- */
+	header {
+		.header {
+			z-index: 20;
+			padding: 10px 20px;
+		
+			.logo {
+		
+				figure {
+					width: 75px;
+				}
+			}
+		
+			.nav {
+				position: absolute;
+				top: 63.54px;
+				// top: -10000px;
+				left: 0;
+				width: 100%;
+				height: 0;
+				flex-direction: column;
+				z-index: 19;
+				background: #000;
+				box-shadow: 0 1px 5px 2px rgba(255, 0, 0, 0.1);
+				justify-content: flex-start;
+				padding: 0 30px;
+				transition: all .5s;
+		
+				li {
+					width: 100%;
+					display: none;
+					border-bottom: 1px solid rgba(255, 0, 0, 0.1);
+
+					a {
+						font-size: 17px;
+						display: block;
+						box-sizing: border-box;
+						padding: 10px 0;
+					}
+				}
+
+				&.active {
+					// top: 63.54px;
+					height: 100vh;
+
+					li {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	/* --------------------------------------------------------------------------------------
+	Top page
+	--------------------------------------------------------------------------------------- */
+	.ctTop {
+		.banner {
+			margin: 50px auto 20px;
+	
+			.imgGp {
+				width: 100%;
+				margin-bottom: 30px;
+				
+				.liveTxt {
+					top: 17px;
+				}
+			}
+	
+			.txtgp {
+				width: 100%;
+				padding-left: 0;
+	
+				h2 {
+					font-size: 30px;
+					text-align: center;
+					margin-bottom: 20px;
+				}
+	
+				p {
+					font-size: 17px;
+				}
+			}
+		}
+	
+		.block {
+			padding: 20px 0;
+
+			&#contact {
+				.left {
+					.imgGp {
+						width: 200px;
+						margin: 0 auto;
+					}
+				}
+			}
+
+			p,
+			strong {
+				font-size: 17px;
+			}
+	
+			.col {
+				.left {
+					order: 1;
+					width: 100%;
+					margin-bottom: 20px;
+				}
+	
+				.right {
+					order: 2;
+					width: 100%;
+					padding-right: 0;
+	
+					ul {
+						li {
+							font-size: 17px;
+							margin-bottom: 20px;
+
+							&:last-of-type {
+								margin-bottom: 0;
+							}
+						}
+
+						&.list {
+							margin: 20px 0;
+							padding-left: 20px;
+
+							li {
+								list-style: disc;
+							}
+						}
+					}
+				}
+	
+				&.reverse {
+					.left {
+						order: 1;
+					}
+	
+					.right {
+						order: 2;
+						padding: 0;
+					}
+				}
+			}
+		}
+	}
+
+	/* --------------------------------------------------------------------------------------
+	Courses page
+	--------------------------------------------------------------------------------------- */
+	.ctCourses {
+		.block {
+			padding: 30px 20px 0;
+	
+			.txt {
+				font-size: 16px;
+				text-align: justify;
+			}
+		}
+	
+		.banner {
+			width: 100%;
+			margin: 0 auto 20px;
+			border-radius: 10px;
+		}
+	
+		.courses {
+			padding: 25px 0 50px;
+	
+			.card {
+				li {
+					width: 100%;
+					min-height: 450px;
+					height: unset;
+					padding: 15px;
+	
+					a {
+						.txt {
+							h3 {
+								font-size: 16px;
+								color: #F50E0E;
+							}
+	
+							p {
+								font-size: 14px;
+							}
+						}
+					}
+				}
+			}
+	
+		}
+	}
+
+	.ctDetail {
+		.course {
+			.title {
+				font-size: 23px;
+			}
+	
+			.leadTxt {
+				font-size: 15px;
+			}
+	
+			.imgBlock {
+				gap: unset;
+				margin-bottom: 20px;
+	
+				img {
+					width: calc(100% / 3);
+					margin-bottom: 20px;
+				}
+			}
+	
+			.ytVideo {
+				width: 100%;
+    			padding: 0 0 56.25%;
+			}
+		}
+	}
+
+	.ctBroker {
+		.block {
+			padding-bottom: 50px;
+	
+			&.broker {
+				.intro {
+					text-align: justify;
+				}
+				
+				ul {
+					gap: 5px;
+					margin-top: 50px;
+	
+					li {
+						width: 100%;
+						padding: 20px;
+	
+						figure {
+							width: 150px;
+							margin: 0 auto 20px;
+						}
+	
+						p {
+							font-size: 20px;
+						}
+	
+						a {
+							display: block;
+							box-sizing: border-box;
+							font-size: 14px;
+							word-break: break-all;
+						}
+					}
+				}
+			}
+	
+			ul {
+				max-width: 100%;
+	
+				li {
+					span {
+						display: block;
+						color: #F50E0E;
+					}
+				}
+			}
+		}
+	}
+
+}

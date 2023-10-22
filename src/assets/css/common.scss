@@ -1,0 +1,371 @@
+@charset "utf-8";
+$font-family-gothic: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+Ubuntu,
+"Helvetica Neue",
+"Hiragino Sans",
+'Hiragino Kaku Gothic ProN',
+メイリオ,
+Meiryo,
+sans-serif;
+
+$font-family-mincho:
+"YuMincho",
+"Yu Mincho",
+"Hiragino Mincho ProN",
+"MS PMincho",
+serif;
+
+$font-family-poppin: "Poppins", sans-serif;
+
+ /* --------------------------------------------------------------------------------------
+ RESET
+--------------------------------------------------------------------------------------- */
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers
+*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h2, h3, h4, h5{
+	font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------------------
+ COMMON
+--------------------------------------------------------------------------------------- */
+body {
+	color: #fff;
+	background-color: #000;
+	font-family: $font-family-poppin;
+	font-size: 20px;
+	line-height: 2.1;
+	letter-spacing: 0.08em;
+	-webkit-text-size-adjust: none;
+	width: 100%;
+	font-feature-settings: "palt";
+	overflow-x: hidden;
+
+	&.no-scroll {
+		overflow-y: hidden;
+	}
+}
+
+html {
+	width: 100%;
+	overscroll-behavior: none;
+}
+
+input,
+select,
+textarea {
+	font-family: $font-family-poppin;
+	font-size: 100%;
+	letter-spacing: 0.08em;
+}
+
+a {
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+strong{
+	font-weight: 600;
+}
+
+
+/* --------------------------------------------------------------------------------------
+ Common
+--------------------------------------------------------------------------------------- */
+.preloadArea {
+	display: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.col {
+	display: flex;
+	align-items: center;
+}
+
+.loading {
+	position: fixed;
+	background-color: #000;
+	width: 100%;
+	height: 100vh;
+	z-index: 999;
+	display: none;
+
+	&.active {
+		display: block;
+	}
+
+	.container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		div {
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			display: inline-block;
+			margin: 0.5rem;
+			animation: loading 2.5s ease-in-out infinite;
+		}
+	}
+	
+	@keyframes loading {
+	0%,
+	100% {
+		transform: scale(0.2);
+		background-color: #0ddcf8;
+	}
+	42% {
+		background-color: #5d4da6;
+	}
+	50% {
+		transform: scale(1);
+		background-color: #42b58fb8;
+	}
+	}
+	
+	div:nth-child(0) {
+	animation-delay: 0s;
+	}
+	div:nth-child(1) {
+	animation-delay: 0.2s;
+	}
+	div:nth-child(2) {
+	animation-delay: 0.4s;
+	}
+	div:nth-child(3) {
+	animation-delay: 0.6s;
+	}
+	div:nth-child(4) {
+	animation-delay: 0.8s;
+	}
+	div:nth-child(5) {
+	animation-delay: 1s;
+	}
+}
+
+/* --------------------------------------------------------------------------------------
+ Header
+--------------------------------------------------------------------------------------- */
+header {
+	background: rgba(255, 0, 0, 0.1);
+	box-shadow: 0 1px 5px 2px rgba(255, 0, 0, 0.1);
+	.header {
+		width: 100%;
+		max-width: 1440px;
+		margin: 0 auto;
+		padding: 0 20px;
+		box-sizing: border-box;
+		text-align: center;
+		justify-content: space-between;
+	
+		.logo {
+			span {
+				display: none;
+			}
+	
+			figure {
+				width: 200px;
+			}
+		}
+	
+		ul {
+			width: 70%;
+			padding-left: 50px;
+			justify-content: space-between;
+			box-sizing: border-box;
+	
+			li {
+				width: calc(100% / 5);
+				list-style: none;
+	
+				a {
+					display: block;
+					color: #fff;
+					transition: color .5s;
+	
+					&:hover,
+					&.active {
+						color: #F50E0E;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* --------------------------------------------------------------------------------------
+ Footer
+--------------------------------------------------------------------------------------- */
+	footer {
+		background: rgba(255, 0, 0, 0.1);
+		box-shadow: 0 1px 5px 2px rgba(255, 0, 0, 0.1);
+
+	.foot {
+		.copy {
+			font-size: 12px;
+			line-height: 1.6;
+			letter-spacing: 0.08em;
+			color: #fff;
+			text-align: center;
+			padding: 20px 0;
+		}
+	}
+}
