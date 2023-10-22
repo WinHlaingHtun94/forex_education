@@ -23,21 +23,21 @@
                         <h2 class="leadTitle" data-aos="zoom-in">Daily Analysis Of MKFX</h2>
                         <div id="images">
                             <div class="day">
-                                <h3 class="title">22.10.2023</h3>
+                                <h3 class="title" data-aos="zoom-in">22.10.2023</h3>
                                 <ul>
-                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 1"></li>
-                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 2"></li>
-                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 3"></li>
-                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 3"></li>
+                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 1" data-aos="zoom-in"></li>
+                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 2" data-aos="zoom-in"></li>
+                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 3" data-aos="zoom-in"></li>
+                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 3" data-aos="zoom-in"></li>
                                 </ul>
                             </div>
                             <div class="day">
-                                <h3 class="title">21.10.2023</h3>
+                                <h3 class="title" data-aos="zoom-in">21.10.2023</h3>
                                 <ul>
-                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 1"></li>
-                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 2"></li>
-                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 3"></li>
-                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 3"></li>
+                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 1" data-aos="zoom-in"></li>
+                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 2" data-aos="zoom-in"></li>
+                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 3" data-aos="zoom-in"></li>
+                                    <li><img src="<?php echo SITE_URL;?>assets/img/analysis.jpg" alt="Picture 3" data-aos="zoom-in"></li>
                                 </ul>
                             </div>
                         </div>
