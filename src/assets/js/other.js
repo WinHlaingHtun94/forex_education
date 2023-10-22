@@ -1,9 +1,11 @@
+//AOS
 AOS.init({
   once: true,
   easing: 'ease',
   duration: 800,
   offset: 250,
 });
+
 $("#liveTxt").typer({
     strings: [
       "Welcome To MKFX.",

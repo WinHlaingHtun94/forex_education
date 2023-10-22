@@ -61,7 +61,7 @@
                             <p class="intro">If you need to create account on the best broker, you can click the following brokers.</p>
                             <ul>
                                 <li data-aos="zoom-in">
-                                    <a href="#">
+                                    <a href="https://user.dooprime.com/signup/R3552390-a01" target="_blank">
                                         <figure>
                                             <img src="<?php echo SITE_URL;?>assets/img/doo_prime.png" alt="dooprime" width="1000" height="1000">
                                         </figure>
@@ -69,7 +69,7 @@
                                     </a>
                                 </li>
                                 <li data-aos="zoom-in">
-                                    <a href="#">
+                                    <a href="#" target="_blank">
                                         <figure>
                                             <img src="<?php echo SITE_URL;?>assets/img/mh.png" alt="mh" width="1000" height="1000">
                                         </figure>
@@ -77,7 +77,7 @@
                                     </a>
                                 </li>
                                 <li data-aos="zoom-in">
-                                    <a href="#">
+                                    <a href="https://login-gm.atfx.com/register?redirect_uri=applyLive&invitationCode=qVtQgWUnK1ziKNb3TGnM%2BMgR%2FLQr24rtbYplawH3Qf8%3D" target="_blank">
                                         <figure>
                                             <img src="<?php echo SITE_URL;?>assets/img/ATFX.png" alt="ATFX" width="1000" height="1000">
                                         </figure>
@@ -85,7 +85,7 @@
                                     </a>
                                 </li>
                                 <li data-aos="zoom-in">
-                                    <a href="#">
+                                    <a href="https://www.litefinance.org/?uid=765485545" target="_blank">
                                         <figure>
                                             <img src="<?php echo SITE_URL;?>assets/img/lifefanance.png" alt="life finance" width="1000" height="1000">
                                         </figure>

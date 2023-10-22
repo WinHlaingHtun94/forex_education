@@ -409,3 +409,30 @@ common
 		}
 	}
 }
+
+.ctAnalysis {
+	.leadTitle {
+		margin: 50px auto;
+	}
+
+	.title {
+		color: #F50E0E;
+		font-size: 30px;
+		background-color: #241b1b;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	ul {
+		display: flex;
+		align-items: center;
+		flex-flow: wrap;
+		gap: 10px;
+		margin-bottom: 50px;
+
+		li {
+			width: calc((100% / 3) - 10px);
+			margin-bottom: 10px;
+		}
+	}
+}

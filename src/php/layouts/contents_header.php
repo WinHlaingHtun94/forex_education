@@ -13,6 +13,7 @@
         </div>
         <ul class="col nav">
             <li><a href="<?php echo SITE_URL;?>#about" class="<?php if($thisPage == 'index'){echo 'active';}?>">About</a></li>
+            <li><a href="<?php echo SITE_URL;?>analysis/" class="<?php if($thisPage == 'analysis'){echo 'active';}?>">Analysis</a></li>
             <li><a href="<?php echo SITE_URL;?>courses/" class="<?php if($thisPage == 'detail'){echo 'active';}?>">Courses</a></li>
             <li><a href="<?php echo SITE_URL;?>calender/" class="<?php if($thisPage == 'calender'){echo 'active';}?>">Calender</a></li>
             <li><a href="<?php echo SITE_URL;?>broker/" class="<?php if($thisPage == 'broker'){echo 'active';}?>">Brokers</a></li>

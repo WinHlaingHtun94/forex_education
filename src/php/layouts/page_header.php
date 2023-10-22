@@ -30,6 +30,7 @@
 	<meta name="twitter:image" content="">
 
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.css" integrity="sha512-za6IYQz7tR0pzniM/EAkgjV1gf1kWMlVJHBHavKIvsNoUMKWU99ZHzvL6lIobjiE2yKDAKMDSSmcMAxoiWgoWA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="<?php echo SITE_URL;?>assets/css/vender.min.css">
 	<link rel="stylesheet" href="<?php echo SITE_URL;?>assets/css/common.min.css">
 </head>

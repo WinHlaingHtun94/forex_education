@@ -367,4 +367,28 @@
 		}
 	}
 
+	.ctAnalysis {
+		.leadTitle {
+			margin: 25px auto;
+		}
+	
+		.title {
+			font-size: 24px;
+			margin-bottom: 25px;
+		}
+
+		.day {
+			margin-bottom: 25px;
+			ul {
+				gap: unset;
+				margin-bottom: 10px;
+		
+				li {
+					width: 100%;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+
 }
