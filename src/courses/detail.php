@@ -22,7 +22,7 @@
                     <div class="course ctInner">
                         <h2 class="title" data-aos="zoom-in">Forex Basics for Beginners</h2>
                         <p class="leadTxt" data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus, voluptatem. Quisquam, voluptatibus, voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus, voluptatem. Quisquam, voluptatibus, voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus, voluptatem. Quisquam, voluptatibus, voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus, voluptatem. Quisquam, voluptatibus, voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus, voluptatem. Quisquam, voluptatibus, voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus, voluptatem. Quisquam, voluptatibus, voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus, voluptatem. Quisquam, voluptatibus, voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus, voluptatem. Quisquam, voluptatibus, voluptatem.</p>
-                        <figure class="imgBlock" data-aos="zoom-in">
+                        <figure class="imgBlock" data-aos="zoom-in" id="images">
                             <img src="<?php echo SITE_URL;?>assets/img/course.jpg" alt="course" width="5812" height="3875">
                             <img src="<?php echo SITE_URL;?>assets/img/course.jpg" alt="course" width="5812" height="3875">
                             <img src="<?php echo SITE_URL;?>assets/img/course.jpg" alt="course" width="5812" height="3875">
@@ -54,3 +54,8 @@
 
 
 	<?php require_once("../php/layouts/page_footer.php"); ?>
+    <script>
+        //image Viewer
+        const gallery = document.getElementById('images');
+        const viewer = new Viewer(gallery);
+    </script>

@@ -212,6 +212,7 @@ common
 		.card {
 			display: flex;
 			align-items: center;
+			justify-content: center;
 			flex-flow: wrap;
 			gap: 10px;
 
@@ -245,6 +246,8 @@ common
 
 						p {
 							font-size: 14px;
+							max-height: 80px;
+							overflow: hidden;
 						}
 					}
 
@@ -289,6 +292,8 @@ common
 
 			img {
 				width: calc(100% / 4);
+				height: 233.35px;
+				object-fit: cover;
 			}
 		}
 
