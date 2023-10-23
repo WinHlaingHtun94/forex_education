@@ -432,7 +432,12 @@ common
 
 		li {
 			width: calc((100% / 3) - 10px);
+			max-height: 266px;
 			margin-bottom: 10px;
+
+			img {
+				object-fit: cover;
+			}
 		}
 	}
 }
