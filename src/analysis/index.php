@@ -20,7 +20,7 @@
 			<div id="ctArea">
 				<div class="ctAnalysis">
                     <div class="ctInner block">
-                        <h2 class="leadTitle" data-aos="zoom-in">Daily Analysis Of MKFX</h2>
+                        <h2 class="leadTitle" data-aos="zoom-in">Daily Analysis Of MKMyanmar</h2>
                         <div id="images">
                             <div class="day">
                                 <h3 class="title" data-aos="zoom-in">22.10.2023</h3>

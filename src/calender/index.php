@@ -28,8 +28,8 @@
                     {
                     "width": "100%",
                     "height": "100%",
-                    "colorTheme": "dark",
-                    "isTransparent": true,
+                    "colorTheme": "light",
+                    "isTransparent": false,
                     "locale": "en",
                     "importanceFilter": "-1,0,1",
                     "currencyFilter": "USD,EUR,ITL,NZD,CHF,AUD,FRF,JPY,ZAR,TRL,CAD,DEM,MXN,ESP,GBP"

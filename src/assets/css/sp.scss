@@ -18,6 +18,10 @@
 		font-size: 30px;
 	}
 
+	.mode {
+		margin: 20px auto;
+	}
+
 	.humberger {
 		width: 50px;
 		cursor: pointer;
@@ -97,6 +101,14 @@
 	Header
 	--------------------------------------------------------------------------------------- */
 	header {
+
+		&.changemode {
+			.header {
+				.nav {
+					background: #fff;
+				}
+			}
+		}
 		.header {
 			z-index: 20;
 			padding: 10px 20px;
@@ -127,6 +139,10 @@
 					width: 100%;
 					display: none;
 					border-bottom: 1px solid rgba(255, 0, 0, 0.1);
+
+					&:last-of-type {
+						border-bottom: none;
+					}
 
 					a {
 						font-size: 17px;
@@ -284,6 +300,11 @@
 								font-size: 14px;
 							}
 						}
+
+						figure {
+							margin: 0 auto 20px;
+							text-align: center;
+						}
 					}
 				}
 			}
@@ -295,6 +316,7 @@
 		.course {
 			.title {
 				font-size: 23px;
+				margin-bottom: 25px;
 			}
 	
 			.leadTxt {
@@ -306,7 +328,7 @@
 				margin-bottom: 20px;
 	
 				img {
-					width: calc(100% / 3);
+					width: 100%;
 					margin-bottom: 20px;
 				}
 			}
@@ -314,11 +336,23 @@
 			.ytVideo {
 				width: 100%;
     			padding: 0 0 56.25%;
+				margin-bottom: 25px;
+			}
+
+			.btnBlock {
+				a {
+					width: 100%;
+				}
 			}
 		}
 	}
 
 	.ctBroker {
+		.leadTitle {
+			margin-bottom: 30px;
+			background-color:#241b1b;
+		}
+
 		.block {
 			padding-bottom: 50px;
 	
@@ -358,6 +392,7 @@
 				max-width: 100%;
 	
 				li {
+					text-align: center;
 					span {
 						display: block;
 						color: #F50E0E;

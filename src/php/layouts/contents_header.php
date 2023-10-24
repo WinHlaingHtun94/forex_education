@@ -18,6 +18,7 @@
             <li><a href="<?php echo SITE_URL;?>calender/" class="<?php if($thisPage == 'calender'){echo 'active';}?>">Calender</a></li>
             <li><a href="<?php echo SITE_URL;?>broker/" class="<?php if($thisPage == 'broker'){echo 'active';}?>">Brokers</a></li>
             <li><a href="<?php echo SITE_URL;?>#contact" class="<?php if($thisPage == 'contact'){echo 'active';}?>">Contact</a></li>
+            <li><button class="mode"><img src="<?php echo SITE_URL;?>assets/img/sun.png" alt="sun"><img src="<?php echo SITE_URL;?>assets/img/moon.png" alt="moon"></button></li>
         </ul>
     </div>
 </header>
