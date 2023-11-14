@@ -312,6 +312,21 @@
 		}
 	}
 
+	.ctCalender {
+		.calender {
+			margin: 30px 0;
+	
+			iframe {
+				width: 90%;
+			}
+
+			.tradingview-widget-container {
+				width: 90% !important;
+				margin-top: -10px;
+			}
+		}
+	}
+
 	.ctDetail {
 		.course {
 			.title {

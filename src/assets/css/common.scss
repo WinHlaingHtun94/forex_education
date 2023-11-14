@@ -355,6 +355,12 @@ header {
 		}
 	}
 
+	.tradingview-widget-container {
+		height: 46px !important;
+		max-width: 100% !important;
+		padding: 0 !important;
+	}
+
 	.header {
 		width: 100%;
 		max-width: 1440px;
@@ -414,6 +420,12 @@ footer {
 				color: #000;
 			}
 		}
+	}
+
+	.tradingview-widget-container {
+		height: 46px !important;
+		max-width: 100% !important;
+		padding: 0 !important;
 	}
 
 	.foot {

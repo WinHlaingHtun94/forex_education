@@ -69,14 +69,6 @@
                                     </a>
                                 </li>
                                 <li data-aos="zoom-in">
-                                    <a href="#" target="_blank">
-                                        <figure>
-                                            <img src="<?php echo SITE_URL;?>assets/img/mh.png" alt="mh" width="1000" height="1000">
-                                        </figure>
-                                        <p>Mohican Market</p>
-                                    </a>
-                                </li>
-                                <li data-aos="zoom-in">
                                     <a href="https://login-gm.atfx.com/register?redirect_uri=applyLive&invitationCode=qVtQgWUnK1ziKNb3TGnM%2BMgR%2FLQr24rtbYplawH3Qf8%3D" target="_blank">
                                         <figure>
                                             <img src="<?php echo SITE_URL;?>assets/img/ATFX.png" alt="ATFX" width="1000" height="1000">
@@ -90,6 +82,30 @@
                                             <img src="<?php echo SITE_URL;?>assets/img/lifefanance.png" alt="life finance" width="1000" height="1000">
                                         </figure>
                                         <p>Life Finance</p>
+                                    </a>
+                                </li>
+                                <li data-aos="zoom-in">
+                                    <a href="https://www.weltrade.com/?r1=ipartner&r2=57003" target="_blank">
+                                        <figure>
+                                            <img src="<?php echo SITE_URL;?>assets/img/weltrade.png" alt="weltrade" width="1000" height="1000">
+                                        </figure>
+                                        <p>Weltrade</p>
+                                    </a>
+                                </li>
+                                <li data-aos="zoom-in">
+                                    <a href="https://accounts.binance.info/register?ref=208272645" target="_blank">
+                                        <figure>
+                                            <img src="<?php echo SITE_URL;?>assets/img/binance.png" alt="binance" width="2000" height="2000">
+                                        </figure>
+                                        <p>Binance</p>
+                                    </a>
+                                </li>
+                                <li data-aos="zoom-in">
+                                    <a href="https://dashboard.thefundedtraderprogram.com/purchasechallenge-n/?sl=9268" target="_blank">
+                                        <figure>
+                                            <img src="<?php echo SITE_URL;?>assets/img/tft.png" alt="the funded trader" width="1000" height="1000">
+                                        </figure>
+                                        <p>TFT</p>
                                     </a>
                                 </li>
                             </ul>

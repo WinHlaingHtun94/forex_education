@@ -265,6 +265,24 @@ common
 	}
 }
 
+.ctCalender {
+	.calender {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: -20px 0 30px;
+
+		iframe {
+			width: 50%;;
+		}
+
+		.tradingview-widget-container {
+			width: 50% !important;
+			margin-top: 30px;
+		}
+	}
+}
+
 .ctDetail {
 	padding: 50px 0;
 
@@ -371,6 +389,7 @@ common
 			ul {
 				display: flex;
 				align-items: center;
+				justify-content: center;
 				flex-flow: wrap;
 				gap: 15px;
 				margin-top: 50px;
@@ -380,6 +399,7 @@ common
 					background-color: #241b1b;
 					box-sizing: border-box;
 					padding: 20px;
+					margin-bottom: 0;
 
 					figure {
 						width: 150px;
